@@ -64,3 +64,11 @@ INSERT INTO alunos (nome, turma, idade, curso) VALUES
 ('Daniel Nunes', '3A', 20, 'Web Design'),
 ('Renata Lima', '1C', 15, 'Segurança da Informação'),
 ('Bruno Santos', '2A', 18, 'Ciência da Computação');
+
+select nome from alunos where idade = 20;
+select nome from alunos where idade < 20;
+select nome from alunos where idade > 20;
+select nome from alunos where idade > 20 and turma = '2B';
+select nome from alunos where turma = '1A' and idade > 18;
+SELECT nome from alunos where turma = '3C' AND idade < 21;
+select nome from alunos where turma = '2B' AND idade = 17;
